@@ -1,35 +1,18 @@
-#include "main.h"
+[200~#include "main.h"
 #include <stdio.h>
 
 /**
- * print_binary - converts unsigned int to binary
- * @n: Printed in binary format
- * Description:  Prints the binary representation of a number
- * Return: binary
- */
-void print_binary(unsigned long int y)
+ *  * print_binary - converts unsigned int to binary
+ *   * @n: Printed in binary format
+ *    * Description:  Prints the binary representation of a number
+ *     * Return: binary
+ *      */
+void print_binary(unsigned long int m)
 {
-	if (y > 1)
-		/*right shift operator*/
-		/*shifts all bits towards right by certain numbf 1 bits*/
-		print_binary(y >> 1);
+		if (m > 1)
+					/*right shift operator*/
+					/*shifts all bits towards right by certain numbf 1 bits*/
+					print_binary(m >> 1);
 
-	_putchar((y & 1) + '0');
+			_putchar((m & 1) + '0');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
