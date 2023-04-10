@@ -1,4 +1,4 @@
-##include "main.h"
+#include "main.h"
 
 /**
  * flip_bits - count the number of bit needed
@@ -6,10 +6,10 @@
  * to get from one number to another.
  * @k: First digit
  * @j: Second digit tio flip n to
- * Return: The necessary number of bits to flip to get from n to m
+ * Return: The necessary number of bits to flip to get from k to j
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+unsigned int flip_bits(unsigned long int k, unsigned long int j)
 {
 	unsigned long int xor_op = k ^ j;
 	unsigned int counter = 0;
