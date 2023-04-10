@@ -9,10 +9,11 @@
  *      */
 void print_binary(unsigned long int m)
 {
-		if (m > 1)
+		if (m > 1){
 					/*right shift operator*/
 					/*shifts all bits towards right by certain numbf 1 bits*/
 					print_binary(m >> 1);
 
 			_putchar((m & 1) + '0');
+}
 }
