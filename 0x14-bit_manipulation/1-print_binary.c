@@ -3,7 +3,7 @@
 
 /**
  * print_binary - converts unsigned int to binary
- * @n: Printed in binary format
+ * @m: Printed in binary format
  * Description:  Prints the binary representation of a number
  * Return: binary
  */
