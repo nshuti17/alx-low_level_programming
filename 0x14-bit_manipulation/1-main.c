@@ -1,3 +1,4 @@
+julien@ubuntu:~/0x14. Binary$ cat 1-main.c 
 #include <stdio.h>
 #include "main.h"
 
@@ -20,3 +21,4 @@ int main(void)
     printf("\n");
     return (0);
 }
+
