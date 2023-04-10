@@ -13,7 +13,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, new_doc, k = 0;
+	int fd, my_write, k = 0;
 
 	/* Check if filename is NULL and return -1 */
 	if (!filename)
@@ -33,8 +33,8 @@ int create_file(const char *filename, char *text_content)
 		while (text_content[k])
 			k++;
 		/* Writes text_content to file */
-		new_doc = write(fd, text_content, k);
-		if (new_doc == -1)
+		my_write = write(fd, text_content, k);
+		if (my_write == -1)
 		{
 			close(fd);
 			return (-1);
