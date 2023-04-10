@@ -1,4 +1,4 @@
-#include "main.h"
+##include "main.h"
 
 /**
  * flip_bits - count the number of bit needed
@@ -23,4 +23,4 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		xor_op >>= 1;
 	}
 	return (counter);
-}
+}}
