@@ -16,3 +16,20 @@ void print_binary(unsigned long int y)
 
 	_putchar((y & 1) + '0');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
