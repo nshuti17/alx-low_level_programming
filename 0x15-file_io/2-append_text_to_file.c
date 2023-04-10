@@ -38,4 +38,26 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 	close(fd);
 	return (1);
+
+}
+
+	/**
+ * _strlen - len
+ *
+ * @s: is a pointer to a char
+ *
+ * Return: Always 0.
+ */
+
+int _strlen(const char *s)
+{
+	int a = 0;
+
+	while (*(s + a) != '\0')
+	{
+		a++;
+	}
+
+	return (a);
+
 }
