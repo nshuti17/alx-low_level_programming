@@ -23,5 +23,5 @@ unsigned int flip_bits(unsigned long int k, unsigned long int j)
 		xor_op >>= 1;
 	}
 	return (counter);
-}}
+}
 
