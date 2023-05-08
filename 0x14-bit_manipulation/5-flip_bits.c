@@ -24,3 +24,4 @@ unsigned int flip_bits(unsigned long int k, unsigned long int j)
 	}
 	return (counter);
 }}
+
